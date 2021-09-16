@@ -25,10 +25,10 @@ pal <- colorBin("Greens", domain = NULL, n=5)
 # Plotar o mapa
 x <- leaflet(data = teste) %>%
   addProviderTiles("CartoDB.Positron") %>%
-  addPolygons(fillColor = ~pal(teste$UF), 
-              fillOpacity = 0.1, 
-              color = "#bae4b3", 
-              weight = 1) %>%
+  ## addPolygons(fillColor = ~pal(teste$UF),
+  ##             fillOpacity = 0.1,
+  ##             color = "#bae4b3",
+  ##             weight = 1) %>%
   addMarkers(lat = teste@data[["lat"]],
              lng = teste@data[["lng"]],
              popup = teste@data[["Lab"]],
