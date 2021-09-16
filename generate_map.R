@@ -17,25 +17,18 @@ shp <- readOGR("./map-data/BR_UF_2020.shp", stringsAsFactors=FALSE, encoding="UT
 labs <- read.csv("./data/Labs.csv")
 
 # Mesclar os shapes com os arquivos dos laboratórios by UF
-teste <- merge(shp, labs, by.x = "SIGLA_UF", by.y = "UF", duplicateGeoms = TRUE)
-
-# Definir uma paleta de cores
-pal <- colorBin("Greens", domain = NULL, n=5)
+labs <- merge(shp, labs, by.x = "SIGLA_UF", by.y = "UF", duplicateGeoms = TRUE)
 
 # Plotar o mapa
-x <- leaflet(data = teste) %>%
+labs_map <- leaflet(data = labs) %>%
   addProviderTiles("CartoDB.Positron") %>%
-  ## addPolygons(fillColor = ~pal(teste$UF),
-  ##             fillOpacity = 0.1,
-  ##             color = "#bae4b3",
-  ##             weight = 1) %>%
-  addMarkers(lat = teste@data[["lat"]],
-             lng = teste@data[["lng"]],
-             popup = teste@data[["Lab"]],
+  addMarkers(lat = labs@data[["lat"]],
+             lng = labs@data[["lng"]],
+             popup = labs@data[["Lab"]],
              clusterOptions = markerClusterOptions(freezeAtZoom = 10))
 
 # Ver o mapa
-x
+labs_map
 
 # Salvar o mapa como HTML
-saveWidget(x, "./LabsDoBrasil.html")
+saveWidget(labs_map, "./LabsDoBrasil.html")
