@@ -1,15 +1,15 @@
-Tipo,UF,Sigla,Lab,Universidade,Coordenador,lat,lng
-Laboratório,MG,,Laboratório de Psicolinguística,UFMG,Coord. Mara Passos Guimarães,-19.87046000499432,-43.96756424190036
-Laboratório,SC,LabLing,Laboratório de Linguagem e Processos Cognitivos,UFSC,Coord. Mailce Borges Mota,-26.876594953143957,-48.97630142917984
-Laboratório,GO,LaBiCp,Laboratório de Bilinguismo e Cognição,UFRGS,Coord. Ingrid Finger,-30.033277935106938,-51.22083459132918
-Laboratório,MG,LaProLin,Laboratório de Processamento da Linguagem,UFG,Coord. Elena Ortiz Preuss,-16.606196607133736,-49.26156969167836
-Laboratório,MG,NEALP,Núcleo de Estudos em Aquisição da Linguagem e Psicolinguística,UFJF,Coord. Cristina Name,-21.776849853744107,-43.36901558971869
-Laboratório,RJ,LaPEx,Laboratório de Psicolinguística Experimental,UFRJ,Coord. Marcus Maia,-22.862465283112716,-43.22347370318646
-Laboratório,RJ,AceSin,Laboratório de Acesso Sintático,UFRJ,Coord. Aniela Improta França,-22.862465283112716,-43.22347370318646
-Laboratório,PB,LaProL,Laboratório de Processamento Linguístico,UFPB,Coord. Márcio Leitão e José Ferrari-Neto,-7.137657866868103,-34.84580700104601
-Laboratório,RJ,LaPAL,Laboratório de Psicolinguística e Aquisição da Linguagem,PUC-Rio,Coord. Letícia Maria Sicuro-Corrêa,-22.97958824597399,-43.233455647358134
-Laboratório,SP,LAProS,"Laboratório de Aquisição da Linguagem, Processamento e Sintaxe",UNICAMP,Coord. Thiago Motta,-22.8127089412982,-47.06632464346301
-Laboratório,RN,LEELin,Laboratório de Estudos Experimentais em Linguagem,UFRN,Coord. Mahayana Godoy,-5.838289022944962,-35.20013525311074
-Laboratório,CE,LCCP,Laboratório de Ciências Cognitivas e Psicolinguística,UFC,Coord. Elisângela Teixeira,-3.7464825511516455,-38.57368429981584
-Pesquisador Independente,AM,,,UFRA,Ana Paula Alves Salgado,-1.4587973868095439,-48.4348564641429
-Pesquisador Independente,AC,,,UFAC,Michele Calil dos Santos Alves,-7.5590129469817215,-72.71631788740123
+Tipo,UF,Sigla,Lab,Universidade,Coordenador,Link,lat,lng
+Laboratório,MG,,Laboratório de Psicolinguística,UFMG,Coord. Mara Passos Guimarães,<a href="http://www.letras.ufmg.br/psicolinguistica/">VISITAR</a>,-19.87046000499432,-43.96756424190036
+Laboratório,SC,LabLing,Laboratório de Linguagem e Processos Cognitivos,UFSC,Coord. Mailce Borges Mota,<a href="https://www.labling.ufsc.br/">VISITAR</a>,-26.876594953143957,-48.97630142917984
+Laboratório,GO,LaBiCo,Laboratório de Bilinguismo e Cognição,UFRGS,Coord. Ingrid Finger,<a href="https://www.ufrgs.br/propesq1/propesq/labico-laboratorio-de-bilinguismo-e-cognicao/">VISITAR</a>,-30.033277935106938,-51.22083459132918
+Laboratório,MG,LaProLin,Laboratório de Processamento da Linguagem,UFG,Coord. Elena Ortiz Preuss,,-16.606196607133736,-49.26156969167836
+Laboratório,MG,NEALP,Núcleo de Estudos em Aquisição da Linguagem e Psicolinguística,UFJF,Coord. Cristina Name,<a href="https://www.ufjf.br/nealp/">VISITAR</a>,-21.776849853744107,-43.36901558971869
+Laboratório,RJ,LaPEx,Laboratório de Psicolinguística Experimental,UFRJ,Coord. Marcus Maia,,-22.862465283112716,-43.22347370318646
+Laboratório,RJ,AceSin,Laboratório de Acesso Sintático,UFRJ,Coord. Aniela Improta França,<a href="http://www.acesin.letras.ufrj.br/">VISITAR</a>,-22.862465283112716,-43.22347370318646
+Laboratório,PB,LaProL,Laboratório de Processamento Linguístico,UFPB,Coord. Márcio Leitão e José Ferrari-Neto,<a href="http://www.cchla.ufpb.br/laprol/language/pt/">VISITAR</a>,-7.137657866868103,-34.84580700104601
+Laboratório,RJ,LaPAL,Laboratório de Psicolinguística e Aquisição da Linguagem,PUC-Rio,Coord. Letícia Maria Sicuro-Corrêa,<a href="https://www.lapal.letras.puc-rio.br/">VISITAR</a>,-22.97958824597399,-43.233455647358134
+Laboratório,SP,LAProS,"Laboratório de Aquisição da Linguagem, Processamento e Sintaxe",UNICAMP,Coord. Thiago Motta,<a href="https://www.iel.unicamp.br/br/content/laborat%C3%B3rio-de-aquisi%C3%A7%C3%A3o-processamento-e-sintaxe">VISITAR</a>,-22.8127089412982,-47.06632464346301
+Laboratório,RN,LEELin,Laboratório de Estudos Experimentais em Linguagem,UFRN,Coord. Mahayana Godoy,<a href="https://mahayana.me/sobre/">VISITAR</a>,-5.838289022944962,-35.20013525311074
+Laboratório,CE,LCCP,Laboratório de Ciências Cognitivas e Psicolinguística,UFC,Coord. Elisângela Teixeira,<a href="http://sinestesia.ufc.br/equipe-do-laboratio">VISITAR</a>,-3.7464825511516455,-38.57368429981584
+Pesquisador Independente,AM,,,UFRA,Ana Paula Alves Salgado,<a href="http://lattes.cnpq.br/1098297712684662">VISITAR</a>,-1.4587973868095439,-48.4348564641429
+Pesquisador Independente,AC,,,UFAC,Michele Calil dos Santos Alves,<a href="https://scholar.google.com/citations?user=O0QgrYEAAAAJ&hl=pt-BR">VISITAR</a>,-7.5590129469817215,-72.71631788740123

@@ -5,6 +5,7 @@ require(dplyr)
 require(tidyr)
 require(RColorBrewer)
 require(htmlwidgets)
+require(shiny)
 
 # Diretório de trabalho
 setwd(getwd())
@@ -14,7 +15,7 @@ setwd(getwd())
 shp <- readOGR("./map-data/BR_UF_2020.shp", stringsAsFactors=FALSE, encoding="UTF-8")
 
 # Ler os arquivos com os dados dos laboratórios
-labs <- read.csv("./data/Labs.csv")
+labs <- read.csv("./data/LabsTable.csv")
 
 # Mesclar os shapes com os arquivos dos laboratórios by UF
 labs <- merge(shp, labs, by.x = "SIGLA_UF", by.y = "UF", duplicateGeoms = TRUE)
@@ -24,7 +25,11 @@ labs_map <- leaflet(data = labs) %>%
   addProviderTiles("CartoDB.Positron") %>%
   addMarkers(lat = labs@data[["lat"]],
              lng = labs@data[["lng"]],
-             popup = labs@data[["Lab"]],
+             popup = paste(labs@data[["Sigla"]], "-",
+                           labs@data[["Lab"]], "-",
+                           labs@data[["Universidade"]], "-",
+                           labs@data[["Coordenador"]], "-",
+                           labs@data[["Link"]]),
              clusterOptions = markerClusterOptions(freezeAtZoom = 10))
 
 # Ver o mapa
