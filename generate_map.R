@@ -30,7 +30,7 @@ labs_map <- leaflet(data = labs) %>%
                            labs@data[["Universidade"]], "-",
                            labs@data[["Coordenador"]], "-",
                            labs@data[["Link"]]),
-             clusterOptions = markerClusterOptions(freezeAtZoom = 10))
+             clusterOptions = markerClusterOptions(freezeAtZoom = 12))
 
 # Ver o mapa
 labs_map
